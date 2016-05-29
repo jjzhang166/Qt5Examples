@@ -4,6 +4,6 @@
 >* 参考书籍:《Qt5开发及实例》.陆文周.电子工业出版社
 >* 图标库：http://www.easyicon.net/
 
-# AreaCounterDialog 
-##一个简单的圆面积计算工具，相当于Qt版的“HelloWorld”程序
-##　![AreaCounter](Dialog/AreaCounter.bmp)
+#### AreaCounterDialog 
+######一个简单的圆面积计算工具，相当于Qt版的“HelloWorld”程序
+######　![AreaCounter](http://git.oschina.net/gitjf/Qt5Examples/raw/master/Dialog/AreaCounter.bmp)
