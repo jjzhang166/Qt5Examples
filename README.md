@@ -7,4 +7,3 @@
 #### 1.AreaCounterDialog 
 ###### 一个简单的圆面积计算工具，相当于Qt版的“HelloWorld”程序
 ###### ![AreaCounterGif](https://git.oschina.net/gitjf/Qt5Examples/raw/master/Dialog/ACD.gif?dir=0&filepath=Dialog%2FACD.gif&oid=eb019654e481dd7e6836de6d7e58d7f1d8e35eca&sha=53186ef9863eda557e95f2cc37ec8a816589bbae)
-######　![AreaCounter](http://git.oschina.net/gitjf/Qt5Examples/raw/master/Dialog/AreaCounter.bmp)
