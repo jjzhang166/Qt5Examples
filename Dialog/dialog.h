@@ -7,13 +7,13 @@ namespace Ui {
 class Dialog;
 }
 
-class Dialog : public QMainWindow
+class AreaCounter : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    explicit Dialog(QWidget *parent = 0);
-    ~Dialog();
+    explicit AreaCounter(QWidget *parent = 0);
+    ~AreaCounter();
 
 private slots:
     void on_countButton_clicked();

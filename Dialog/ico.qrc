@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/ico">
+        <file>ico/computing_24px.ico</file>
+        <file>ico/pen_24px.ico</file>
+        <file>ico/Tools_24px.ico</file>
+    </qresource>
+</RCC>
