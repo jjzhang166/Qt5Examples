@@ -5,7 +5,7 @@ const static double PI=3.1416;
 
 AreaCounter::AreaCounter(QWidget *parent) :
     QMainWindow(parent),
-    ui(new Ui::Dialog)
+    ui(new Ui::AreaCounterDialog)
 {
     ui->setupUi(this);
 }

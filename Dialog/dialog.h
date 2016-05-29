@@ -4,7 +4,7 @@
 #include <QMainWindow>
 
 namespace Ui {
-class Dialog;
+class AreaCounterDialog;
 }
 
 class AreaCounter : public QMainWindow
@@ -21,7 +21,7 @@ private slots:
     void on_radiusLabelEdit_textChanged(const QString &arg1);
 
 private:
-    Ui::Dialog *ui;
+    Ui::AreaCounterDialog *ui;
 };
 
 #endif // DIALOG_H
