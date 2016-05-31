@@ -1,26 +1,8 @@
-#include "dialog.h"
-#include "ui_dialog.h"
+#圆面积计算工具0.1v
+##修改说明
+>* 修改了半径输入框对输入数据的验证，采用了QRegExp和QByteArray两种不同的方案，默认采用正则表达式方案进行验证，相关源码于下（`main.cpp`)
 
-const static double PI=3.1416;
-
-AreaCounter::AreaCounter(QWidget *parent) :
-    QMainWindow(parent),
-    ui(new Ui::AreaCounterDialog)
-{
-    ui->setupUi(this);
-}
-
-AreaCounter::~AreaCounter()
-{
-    delete ui;
-}
-
-void AreaCounter::on_countButton_clicked()
-{
-    ui->radiusLabelEdit->setText("0.0");
-    ui->areaLabel_2->setText("0.0");
-}
-
+```
 void AreaCounter::on_radiusLabelEdit_textChanged(const QString &arg1)
 {
     bool ok;
@@ -65,4 +47,5 @@ void AreaCounter::on_radiusLabelEdit_textChanged(const QString &arg1)
     double area=valueDouble*valueDouble*PI;
     ui->areaLabel_2->setText(tempStr.setNum(area));
 }
+```
 
