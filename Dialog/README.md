@@ -5,6 +5,7 @@
 #### ![regexp.gif](https://git.oschina.net/gitjf/Qt5Examples/raw/master/Dialog/regexp.gif)
 
 ```java
+
 void AreaCounter::on_radiusLabelEdit_textChanged(const QString &arg1)
 {
     bool ok;
@@ -49,5 +50,6 @@ void AreaCounter::on_radiusLabelEdit_textChanged(const QString &arg1)
     double area=valueDouble*valueDouble*PI;
     ui->areaLabel_2->setText(tempStr.setNum(area));
 }
+
 ```
 
