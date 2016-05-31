@@ -4,7 +4,7 @@
 
 #### ![regexp.gif](https://git.oschina.net/gitjf/Qt5Examples/raw/master/Dialog/regexp.gif)
 
-```
+```java
 void AreaCounter::on_radiusLabelEdit_textChanged(const QString &arg1)
 {
     bool ok;
