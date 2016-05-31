@@ -2,7 +2,7 @@
 ##修改说明
 >* 修改了半径输入框对输入数据的验证，采用了QRegExp和QByteArray两种不同的方案，默认采用正则表达式方案进行验证，相关源码于下（`main.cpp`)
 
-####[!regexp.gif](http://git.oschina.net/gitjf/Qt5Examples/raw/master/Dialog/regexp.gif)
+####[!regexp.gif](https://git.oschina.net/gitjf/Qt5Examples/raw/master/Dialog/regexp.gif)
 
 ```
 void AreaCounter::on_radiusLabelEdit_textChanged(const QString &arg1)
