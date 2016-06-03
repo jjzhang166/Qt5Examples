@@ -8,6 +8,9 @@ AreaCounter::AreaCounter(QWidget *parent) :
     ui(new Ui::AreaCounterDialog)
 {
     ui->setupUi(this);
+    //方案二：利用正则表达式来约束输入框中输入的数字是否为数值数据
+    QRegExp rRegExp("[0-9]+[.]{1}[0-9]+");
+    ui->radiusLabelEdit->setValidator(new QRegExpValidator(rRegExp,this));
 }
 
 AreaCounter::~AreaCounter()
@@ -57,9 +60,6 @@ void AreaCounter::on_radiusLabelEdit_textChanged(const QString &arg1)
     //若要采用方案二，请注释掉方案一
     */
 
-    //方案二：利用正则表达式来约束输入框中输入的数字是否为数值数据
-    QRegExp rRegExp("[0-9]+[.]{1}[0-9]+");
-    ui->radiusLabelEdit->setValidator(new QRegExpValidator(rRegExp,this));
 
     double valueDouble=valueStr.toDouble(&ok);
     double area=valueDouble*valueDouble*PI;
